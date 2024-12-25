@@ -39,7 +39,7 @@ header {
 }
 header h1 {
     font-size: 2.5em;
-    color: #4a90e2;
+    color: #387ece;
 }
 header p {
     font-size: 1.2em;
@@ -79,7 +79,7 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 section h2 {
-    color: #4a90e2;
+    color: #177592;
     margin-bottom: 15px;
     border-bottom: 2px solid #f5d76e;
     padding-bottom: 5px;
@@ -144,6 +144,7 @@ footer {
     margin-bottom: 20px;
 }
 
+
 #footer-description h3 {
     font-size: 24px;
     color: #e74c3c; /* Accent color */
@@ -198,4 +199,141 @@ footer ul.social-links li {
     display: inline;
     margin: 0 10px;
 }
+/* Section Styling */
+#famous-areas-table {
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#famous-areas-table h2 {
+    font-size: 24px;
+    color: #992f94;
+    margin-bottom: 15px;
+}
+
+/* Table Styling */
+#areas-table {
+    margin: 0 auto;
+    width: 101%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+#areas-table th, #areas-table td {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+#areas-table th {
+    background-color: #34495e;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#areas-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#areas-table tr:hover {
+    background-color: #dff9fb;
+    transition: background-color 0.3s ease;
+}
+
+#areas-table td {
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+/* Add responsive styling */
+@media screen and (max-width: 768px) {
+    #areas-table {
+        width: 100%;
+    }
+}
+#corner-image {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#corner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#corner-image1 {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#corner-image1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#corner-text {
+    position: absolute;
+    top: 40px;
+    right: 180px;
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    color: #ff4500; /* Beautiful orange color */
+    font-weight: bold;
+    background: linear-gradient(90deg, #ffd700, #ff4500); /* Golden to orange gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Makes the gradient text-only */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow */
+    z-index: 1000;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#corner-text1 {
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    color: #ff4500; /* Beautiful orange color */
+    font-weight: bold;
+    background: linear-gradient(90deg, #ffd700, #ff4500); /* Golden to orange gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Makes the gradient text-only */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow */
+    z-index: 1000;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+
+ 
+ 
+
+
+
 
