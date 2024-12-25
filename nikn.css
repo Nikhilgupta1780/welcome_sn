@@ -133,80 +133,69 @@ form button:hover {
 
 /* Footer Styling */
 footer {
+    background-color: #2c3e50; /* Dark background */
+    color: #ecf0f1; /* Light text */
+    padding: 20px;
     text-align: center;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    margin-top: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-footer {
-    background-color: #282c34;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 30px;
     font-family: Arial, sans-serif;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 
-footer p {
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-
-footer ul.social-links {
-    list-style: none;
-    padding: 15px 0 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-footer ul.social-links li {
-    display: inline;
-}
-
-footer ul.social-links li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
-}
-
-footer ul.social-links li a:hover {
-    color: #1e90ff; /* Light blue color for hover effect */
-    text-shadow: 0 0 5px #1e90ff;
-}
-
-footer ul.social-links li a:active {
-    transform: scale(0.95); /* Slightly reduce size when clicked */
-}
-
-footer ul.social-links li a:visited {
-    color: #cccccc; /* Light gray for visited links */
-}
 #footer-description {
-    background-color: #f4f4f4;
-    padding: 15px 20px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 #footer-description h3 {
-    font-size: 1.5rem;
-    color: #333;
+    font-size: 24px;
+    color: #e74c3c; /* Accent color */
     margin-bottom: 10px;
 }
 
 #footer-description p {
-    font-size: 1rem;
-    color: #555;
-    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+#footer-icons {
+    margin-top: 15px;
+}
+
+#footer-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#footer-icons a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Circular icons */
+    border: 2px solid #ecf0f1; /* Border around icons */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#footer-icons a:hover img {
+    transform: scale(1.1); /* Slight zoom on hover */
+    box-shadow: 0 4px 10px rgba(39, 230, 51, 0.3); /* Add a glow effect */
+}
+
+#footer-icons a:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+footer ul.social-links {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+footer ul.social-links li {
+    display: inline;
+    margin: 0 10px;
 }
 
