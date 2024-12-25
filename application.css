@@ -1,0 +1,165 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 3em;
+    color: #0057b8;
+    text-transform: uppercase;
+}
+
+h1 b {
+    color: #ff9800;
+}
+
+/* Form Styling */
+form {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Elements Styling */
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #ff9800;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Checkbox and Radio Button Styling */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-top: 10px;
+}
+
+/* Submit and Reset Button Styling */
+input[type="submit"],
+input[type="reset"],
+button {
+    background-color: #0057b8;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background-color: #ff9800;
+}
+
+/* Header Image Styling */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Favorite Subject Section */
+h2 {
+    font-size: 1.5em;
+    color: #0057b8;
+    margin-bottom: 20px;
+}
+
+label[for="Maths"],
+label[for="Physics"],
+label[for="Chemistry"] {
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+/* Select Styling */
+select {
+    font-size: 1.1em;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Feedback Section */
+textarea {
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    input[type="submit"],
+    input[type="reset"],
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+/* Footer Section Styling */
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}

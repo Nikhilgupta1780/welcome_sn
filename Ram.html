@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth Nagar</title>
+    <link rel="stylesheet" href="nikn.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('buddha_background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-bottom: 2px solid #ccc;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+            list-style: none;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        iframe {
+            display: block;
+            margin: 0 auto;
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin: 10px 0 5px;
+        }
+
+        form input, form select, form textarea, form button {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        form button {
+            background-color: #007BFF;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Siddharth Nagar</h1>
+        <p>Explore the famous places, schools, colleges, and more!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#areas">Famous Areas</a></li>
+            <li><a href="#schools">Schools & Colleges</a></li>
+            <li><a href="#hospitals">Hospitals</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#admission">Admission Form</a></li>
+            <li><a href="#famous-people">Famous People</a></li>
+            <li><a href="#buddha">About Buddha</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Existing Sections -->
+        <section id="areas">
+            <h2>Famous Areas in Siddharth Nagar</h2>
+            <ul>
+                <li>Kapilvastu</li>
+                <li>Bansi</li>
+                <li>Tetri Bazaar</li>
+                <li>Itwa</li>
+                <li>Shohratgarh</li>
+            </ul>
+        </section>
+
+        <section id="schools">
+            <h2>Famous Schools & Colleges</h2>
+            <ul>
+                <li>Kendriya Vidyalaya</li>
+                <li>St. Xavier's School</li>
+                <li>National Public School</li>
+                <li>Siddharth Degree College</li>
+                <li>Government Polytechnic College</li>
+            </ul>
+        </section>
+
+        <section id="hospitals">
+            <h2>Famous Hospitals</h2>
+            <ul>
+                <li>AIIMS Siddharth Nagar</li>
+                <li>District Hospital</li>
+                <li>Life Care Hospital</li>
+                <li>Arogya Hospital</li>
+                <li>City Hospital</li>
+            </ul>
+        </section>
+
+        <section id="map">
+            <h2>Map of Siddharth Nagar</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114087.73587270903!2d82.66724769999999!3d27.2514478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a0f1d94e09d41%3A0xa9ae57051dcbb12c!2sSiddharthnagar%2C%20Uttar%20Pradesh%2C%20India!5e0!3m2!1sen!2sus!4v1672345678901!5m2!1sen!2sus" 
+                width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section id="admission">
+            <h2>Admission Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="course">Course:</label>
+                <select id="course" name="course">
+                    <option value="school">School Admission</option>
+                    <option value="college">College Admission</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="famous-people">
+            <h2>Famous People from Siddharth Nagar</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Profession</th>
+                        <th>Achievements</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dr. Ram Manohar Lohia</td>
+                        <td>Politics</td>
+                        <td>Renowned freedom fighter and socialist leader</td>
+                    </tr>
+                    <tr>
+                        <td>Dr. Babu Lal</td>
+                        <td>Medicine</td>
+                        <td>Pioneer in rural healthcare</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- New Section -->
+        <section id="buddha">
+            <h2>About Lord Buddha</h2>
+            <p>
+                Siddhartha Gautama, known as Lord Buddha, was a spiritual leader and founder of Buddhism. Born in Kapilvastu, he renounced worldly life to seek enlightenment and eventually attained it under the Bodhi tree in Bodh Gaya. His teachings, including the Four Noble Truths and the Eightfold Path, form the foundation of Buddhist philosophy and practice.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Siddharth Nagar Information Portal</p>
+    </footer>
+</body>
+</html>
