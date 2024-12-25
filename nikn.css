@@ -188,3 +188,24 @@ footer ul.social-links li a:active {
 footer ul.social-links li a:visited {
     color: #cccccc; /* Light gray for visited links */
 }
+#footer-description {
+    background-color: #f4f4f4;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#footer-description h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#footer-description p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
